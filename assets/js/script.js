@@ -167,10 +167,9 @@ const fetchArticles = () => {
 
 // Function to display fetched articles
 const displayArticles = (articles) => {
-  const blogPostsList = document.querySelector('.blog-posts-list'); // Get the container
-  blogPostsList.innerHTML = ''; // Clear any existing content
+  const blogPostsList = document.querySelector('.blog-posts-list');
+  blogPostsList.innerHTML = '';
 
-  // Loop through the articles and create HTML
   articles.forEach(article => {
     const listItem = document.createElement('li');
     listItem.classList.add('blog-post-item');
