@@ -15,6 +15,29 @@
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
+@font-face {
+  font-family: 'InterDisplay';
+  src: url('/assets/fonts/InterDisplay-Medium.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFPro';
+  src: url('/assets/fonts/SFPRODISPLAYMEDIUM.OTF') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PP Radio';
+  src: url('/assets/fonts/PPRadioGrotesk-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
 :root {
 
   /**
@@ -74,7 +97,7 @@
    */
 
   /* font-family */
-  --ff-poppins: 'Poppins', sans-serif;
+  --ff-poppins: 'InterDisplay', sans-serif;
 
   /* font-size */
   --fs-1: 24px;
